@@ -335,7 +335,7 @@ export default function Home() {
               <p className="text-sm text-purple-500 mb-2">{article?.category}</p>
             </div>
             <div className="relative h-64 w-full">
-              <Image src={article.image || "/placeholder.svg"} alt={article?.title} fill className="object-cover" />
+              <Image src={article?.image || "/placeholder.svg"} alt={article?.title} fill className="object-cover" />
             </div>
             <div className="p-4">
               <p className="text-lg leading-relaxed text-gray-300 text-wrap bg">
